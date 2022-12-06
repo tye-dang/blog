@@ -6,7 +6,7 @@ const morgan = require('morgan')
 
 app.use(morgan('combined'))
 
-app.get('/tin-tuc', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
